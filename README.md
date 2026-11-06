@@ -1,6 +1,6 @@
 # 51JYKE DevTools
 
-Project path: `projects/51jyke-devtools/`.
+Source code for [51jyke.com](https://51jyke.com).
 
 51JYKE DevTools is a free-to-use, no-ads parser-first SQL dialect converter using the browser-only dynamic `@polyglot-sql/sdk` WebAssembly parser/transpiler. Conversion runs in the browser; SQL query text is not uploaded for conversion. Server rendering and static prerendering do not initialize the engine.
 
@@ -25,8 +25,4 @@ Tests cover initialization, statement families, dialect pagination, Oracle modes
 
 ## Routes and deployment
 
-`/` is the converter; `/about` documents limits and provides `mailto:van.deking.1@gmail.com`. Test routes previously under `/home` and `/api` have been removed. `https://51jyke.com` is the intended canonical domain only; domain ownership, DNS, TLS, and public deployment have not been verified or completed. Verify `/`, `/about`, `/robots.txt` and `/sitemap.xml` after an authorized deployment, then submit sitemap to Search Console.
-
-## Product positioning handoff
-
-The brand and SEO/content direction for the first version is documented in [1106-51jyke-devtools-theme.md](./.agents/docs/1106-51jyke-devtools-theme.md). Keyword candidates in that document are hypotheses, not verified search-volume or ranking data.
+`/` is the converter; `/about` documents its limits. Verify `/`, `/about`, `/robots.txt` and `/sitemap.xml` after deployment, then submit the sitemap to Search Console.
