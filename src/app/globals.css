@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@theme inline {
+  --color-paper: #fbfaf7;
+  --color-paper-deep: #f2f1eb;
+  --color-ink: #25332e;
+  --color-ink-soft: #68736d;
+  --color-green: #315c4d;
+  --color-green-light: #d9e7dc;
+  --color-clay: #bd654a;
+  --color-line: #e7e7df;
+  --font-sans: var(--font-query-sans);
+  --font-mono: var(--font-query-mono);
+}
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: #fbfaf7;
+  color: #25332e;
+  font-family: var(--font-query-sans), sans-serif;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+  background: #fbfaf7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}

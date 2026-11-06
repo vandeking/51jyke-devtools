@@ -1,0 +1,50 @@
+# Operating system
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+.cache/
+.vitepress/cache/
+.vitepress/dist/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Standalone project root ignores
+.next/
+.agents/
+node_modules/
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Test and coverage output
+coverage/
+.test-build/
+
+# Misc
+*.pem
